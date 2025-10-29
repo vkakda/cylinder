@@ -11,7 +11,7 @@ const App = () => {
       <div className="w-screen h-screen relative bg-black overflow-hidden">
         <Canvas
           flat
-          dpr={[1, 2]} // HD sharpness
+          dpr={[1, 1.5]} // HD sharpness
           camera={{ fov: 30, position: [0, 0, 1] }} // Move camera a bit back
         >
           {/* Orbit controls */}
